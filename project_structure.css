@@ -1,0 +1,23 @@
+medical-imaging-diagnosis/
+│
+├── data/
+│   ├── xray/
+│   ├── mri/
+│   └── histopathology/
+│
+├── notebooks/
+│   ├── data_preprocessing.ipynb
+│   └── model_training.ipynb
+│
+├── src/
+│   ├── preprocess.py
+│   ├── train.py
+│   ├── evaluate.py
+│   └── deploy.py
+│
+├── models/
+│   └── saved_model/
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
